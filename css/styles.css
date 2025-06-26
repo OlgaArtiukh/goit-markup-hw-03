@@ -9,9 +9,15 @@ body {
 }
 ul {
     list-style-type: none;
+  }
+  img {
+  display: block;
+  max-width: 100%;
 }
 a {
  text-decoration: none;
+ margin: 0;
+ padding: 0;
 }
 .logo {
     
@@ -25,6 +31,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 font-style: normal;
+margin-right: 76px;
+display: inline-block;
 }
 
 a .logostudio {
@@ -37,6 +45,7 @@ a .logostudio {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -66,6 +75,11 @@ font-style: normal;
 .sectionnameone {
    background-color: #2e2f42; 
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .nameone {
 
 font-weight: 700;
@@ -74,6 +88,12 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
+}
+
+.header.container {
+   max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .klic {
  background-color: #4D5AE5;
@@ -86,12 +106,22 @@ color: #ffffff;
     cursor: pointer;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 156px;
+  height: 72px;
+  border-bottom: 1px solid #e7e9fc;
+}
 .namethree {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .textthree {
 font-weight: 400;
@@ -138,4 +168,13 @@ color: #f4f4fd;
 }
 .backgroundteam {
    background:#ffffff; 
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
