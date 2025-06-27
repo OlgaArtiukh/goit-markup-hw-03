@@ -90,7 +90,7 @@ a .logostudio {
 .contacts-link:focus {
     color: #404BBF;
 }
-. sectionnameone {
+.sectionnameone {
 
   padding-top: 120px;
     padding-bottom: 120px;
@@ -172,6 +172,21 @@ max-width: 496px;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
+
+
+.nametwo {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+text-transform: capitalize;
+}
+
+.onesection {
+    background: #f4f4fd;
+}
 .namethree {
 font-weight: 500;
 font-size: 20px;
@@ -187,19 +202,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.nametwo {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
-}
-
-.onesection {
-    background: #f4f4fd;
-}
+/*футер*/
 .final {
     background: #2e2f42;
     padding-top: 100px;
@@ -215,6 +218,7 @@ text-transform: uppercase;
 color: #f4f4fd;
  padding: 0;
  margin: 0;
+ display: inline-block;
 
 }
 
