@@ -20,7 +20,9 @@ body {
    max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
 }
+
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -87,6 +89,12 @@ a .logostudio {
 .contacts-link:focus {
     color: #404BBF;
 }
+. sectionnameone {
+  
+  padding-top: 120px;
+    padding-bottom: 120px;
+}
+  
 .klic:hover,
 .klic:focus {
     background-color: #404BBF;
@@ -120,11 +128,6 @@ padding: 24px 0;
    background-color: #2e2f42; 
     padding-top: 188px;
   padding-bottom: 188px;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .nameone {
