@@ -110,17 +110,7 @@ a .logostudio {
     margin-left: auto;
 }
 
-.contacts-link  {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-font-style: normal;
-display: block;
-padding: 24px 0;
 
-}
 .section {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -174,6 +164,40 @@ max-width: 496px;
 }
 
 
+.conteiner-info {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+    }
+
+.onesection {
+    background: #f4f4fd;
+  
+}
+/*sanday*/
+
+.text-people {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
+text-align: center;
+
+}
+.contacts-link  {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+
+}
+
+/*portfolio*/
+
 .nametwo {
 font-weight: 700;
 font-size: 36px;
@@ -184,6 +208,7 @@ color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
 }
+
 .Portfolio{
   padding-top: 120px;
   padding-bottom: 120px;
@@ -199,15 +224,16 @@ margin-bottom: 72px;
 
 .portfolio-all{
    width: calc((100% - 48px) / 3);
+
 }
-.conteiner-info {
-padding: 32px 16px;
+.conteiner-people {
+  padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-    }
+}
 
-.onesection {
-    background: #f4f4fd;
+.portfoliopicture{
+  background-color: #ffffff;
 }
 .namethree {
 font-weight: 500;
@@ -216,6 +242,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 margin-bottom: 8px;
+text-align: center;
 }
 .textthree {
 font-weight: 400;
