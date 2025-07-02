@@ -198,6 +198,9 @@ border-top: none;
 .li-sectiontwo{
   width: calc((100% - 72px) / 4);
 }
+.conteiner-people {
+  padding: 32px 0
+}
     
 /*sanday*/
 
@@ -263,7 +266,7 @@ margin-bottom: 72px;
    width: calc((100% - 48px) / 3);
 
 }
-.conteiner-people {
+.conteiner {
   padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
