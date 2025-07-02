@@ -168,13 +168,9 @@ max-width: 496px;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
+}
 
-    }
 
-.onesection {
-    background: #f4f4fd;
-    padding:120px 0;
-      }
 
 .sectiontwo{
   padding: 120px 0; 
@@ -191,6 +187,12 @@ border-top: none;
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
+/*третя секція*/
+.onesection {
+    background: #f4f4fd;
+    padding:120px 0;
+      }
+
 .ul-sectiontwo{
   display: flex;
   gap: 24px; 
@@ -198,11 +200,27 @@ border-top: none;
 .li-sectiontwo{
   width: calc((100% - 72px) / 4);
 }
+
+
+.textthree{
+  text-align: center;
+}
+
+.ul-sectionthree{
+  display: flex;
+  gap: 24px; 
+}
+
+
+.backgroundteam{
+  width:calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
+}
+
 .conteiner-people {
   padding: 32px 0
 }
-    
-/*sanday*/
+
 
 .text-people {
 font-weight: 500;
@@ -214,6 +232,9 @@ margin-bottom: 8px;
 text-align: center;
 
 }
+
+
+
 .contacts-link  {
 font-weight: 400;
 font-size: 16px;
@@ -223,20 +244,7 @@ color: #434455;
 
 }
 
-.ul-sectionthree{
-  display: flex;
-  gap: 24px; 
-}
-.backgroundteam{
-  width:calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px; 
-
-}
-.textthree{
-  text-align: center;
-}
-
-/*p*/
+/*оформлення четвертої*/
 
 .nametwo {
 font-weight: 700;
@@ -266,7 +274,8 @@ margin-bottom: 72px;
    width: calc((100% - 48px) / 3);
 
 }
-.conteiner {
+
+.info-port{
   padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
