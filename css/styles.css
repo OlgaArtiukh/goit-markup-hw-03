@@ -11,7 +11,7 @@ body {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
+.header-conteiner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,6 +52,7 @@ ul, ol {
   gap: 40px;
 
 }
+
 a {
  text-decoration: none;
  color: inherit;
@@ -167,10 +168,12 @@ max-width: 496px;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
+
     }
 
 .onesection {
     background: #f4f4fd;
+    padding:120px 0;
       }
 
 .sectiontwo{
@@ -193,7 +196,7 @@ border-top: none;
   gap: 24px; 
 }
 .li-sectiontwo{
-  calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
     
 /*sanday*/
@@ -222,13 +225,15 @@ color: #434455;
   gap: 24px; 
 }
 .backgroundteam{
-  calc((100% - 72px) / 4);
+  width:calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
+
 }
 .textthree{
   text-align: center;
 }
 
-/*portfolio*/
+/*p*/
 
 .nametwo {
 font-weight: 700;
